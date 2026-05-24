@@ -20,10 +20,13 @@ Features
 - Secure API key handling using .gitignore
 
 Project Structure
+
 weather-API-CLI/
-├── Request.py      # Main application file
-├── config.py       # API key - not tracked by git
-└── .gitignore      # Ignores config.py
+    ├── Request.py      # Main application file
+    
+    ├── config.py       # API key - not tracked by git
+    
+    └── .gitignore      # Ignores config.py
 
 Security Note
 The config.py file is listed in .gitignore and will not be pushed to GitHub. Never commit API keys to public repositories.
